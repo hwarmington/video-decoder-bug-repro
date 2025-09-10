@@ -1,0 +1,14 @@
+{
+    "name": "video-decoder-bug",
+    "devDependencies": {
+        "webpack": "5.101.1",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.2"
+    },
+    "dependencies": {
+        "web-demuxer": "^3.0.2"
+    },
+    "scripts": {
+        "start": "yarn webpack serve"
+    }
+}
