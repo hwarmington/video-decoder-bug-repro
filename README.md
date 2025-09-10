@@ -23,6 +23,6 @@ Result:
 - queue decreases to zero
 
 ## Other observations
-The follow also result in correct dequeing behaviour:
+The following also result in correct dequeing behaviour:
 - Running the same script on the main thread
 - Reading chunks after the first `decoder.configure`
