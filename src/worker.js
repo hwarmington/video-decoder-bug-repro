@@ -56,4 +56,8 @@ decoder.configure(videoDecoderConfig);
 decoder.reset(); // <- comment this and dequeue will fire and frames get outputted
 decoder.configure(videoDecoderConfig);
 
+// OR uncomment this to add a delay before decoding. dequeue will fire and frames get outputted
+// const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+// await sleep(1000);
+
 decodeChunks();
